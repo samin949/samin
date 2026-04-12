@@ -1,0 +1,112 @@
+<svg width="400" height="420" viewBox="0 0 400 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#30a46c"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a3a5c"/>
+      <stop offset="100%" stop-color="#0d2137"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shadow layer for 3D effect -->
+  <rect x="8" y="8" width="384" height="404" rx="14" fill="#000000" opacity="0.5"/>
+  <!-- Main card -->
+  <rect x="0" y="0" width="384" height="404" rx="14" fill="url(#bgGrad)"/>
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="384" height="4" rx="2" fill="url(#accentGrad)"/>
+  <!-- Inner border -->
+  <rect x="0" y="0" width="384" height="404" rx="14" fill="none" stroke="#30363d" stroke-width="0.5"/>
+
+  <!-- Avatar shadow -->
+  <circle cx="46" cy="50" r="28" fill="#000000" opacity="0.4"/>
+  <!-- Avatar circle -->
+  <circle cx="42" cy="46" r="28" fill="url(#avatarGrad)"/>
+  <circle cx="42" cy="46" r="28" fill="none" stroke="#30a46c" stroke-width="1.5"/>
+  <!-- Avatar letter -->
+  <text x="42" y="53" text-anchor="middle" font-family="monospace" font-size="20" font-weight="500" fill="#30a46c">S</text>
+
+  <!-- Name -->
+  <text x="80" y="36" font-family="monospace" font-size="16" font-weight="500" fill="#e6edf3">Samin</text>
+  <text x="80" y="54" font-family="monospace" font-size="11" fill="#30a46c">Full-Stack Developer</text>
+  <!-- Accent line under name -->
+  <rect x="80" y="60" width="120" height="2" rx="1" fill="url(#accentGrad)"/>
+  <text x="80" y="76" font-family="monospace" font-size="10" fill="#8b949e">Student + Freelancer · Open Source</text>
+
+  <!-- Divider -->
+  <rect x="20" y="90" width="344" height="0.5" fill="#30363d"/>
+
+  <!-- Code block -->
+  <text x="20" y="112" font-family="monospace" font-size="11" fill="#58a6ff">const</text>
+  <text x="62" y="112" font-family="monospace" font-size="11" fill="#e6edf3">dev</text>
+  <text x="84" y="112" font-family="monospace" font-size="11" fill="#ff7b72">=</text>
+  <text x="96" y="112" font-family="monospace" font-size="11" fill="#e6edf3">{</text>
+  <text x="32" y="130" font-family="monospace" font-size="11" fill="#79c0ff">stack</text>
+  <text x="72" y="130" font-family="monospace" font-size="11" fill="#e6edf3">:</text>
+  <text x="82" y="130" font-family="monospace" font-size="10" fill="#a5d6ff">['Python','Django','PostgreSQL'],</text>
+  <text x="32" y="148" font-family="monospace" font-size="11" fill="#79c0ff">role</text>
+  <text x="62" y="148" font-family="monospace" font-size="11" fill="#e6edf3">:</text>
+  <text x="72" y="148" font-family="monospace" font-size="11" fill="#a5d6ff">'Student + Freelancer',</text>
+  <text x="32" y="166" font-family="monospace" font-size="11" fill="#79c0ff">passion</text>
+  <text x="84" y="166" font-family="monospace" font-size="11" fill="#e6edf3">:</text>
+  <text x="94" y="166" font-family="monospace" font-size="11" fill="#a5d6ff">'Open Source',</text>
+  <text x="32" y="184" font-family="monospace" font-size="11" fill="#79c0ff">status</text>
+  <text x="78" y="184" font-family="monospace" font-size="11" fill="#e6edf3">:</text>
+  <text x="88" y="184" font-family="monospace" font-size="11" fill="#3fb950">'Building...'</text>
+  <text x="20" y="202" font-family="monospace" font-size="11" fill="#e6edf3">}</text>
+
+  <!-- Divider -->
+  <rect x="20" y="214" width="344" height="0.5" fill="#30363d"/>
+
+  <!-- Skill bars -->
+  <!-- Python -->
+  <text x="20" y="234" font-family="monospace" font-size="10" fill="#8b949e">Python</text>
+  <rect x="90" y="224" width="254" height="4" rx="2" fill="#21262d"/>
+  <rect x="90" y="224" width="229" height="4" rx="2" fill="#30a46c"/>
+  <text x="354" y="234" font-family="monospace" font-size="10" fill="#30a46c" text-anchor="end">90%</text>
+
+  <!-- Django -->
+  <text x="20" y="252" font-family="monospace" font-size="10" fill="#8b949e">Django</text>
+  <rect x="90" y="242" width="254" height="4" rx="2" fill="#21262d"/>
+  <rect x="90" y="242" width="208" height="4" rx="2" fill="#58a6ff"/>
+  <text x="354" y="252" font-family="monospace" font-size="10" fill="#58a6ff" text-anchor="end">82%</text>
+
+  <!-- PostgreSQL -->
+  <text x="20" y="270" font-family="monospace" font-size="10" fill="#8b949e">PostgreSQL</text>
+  <rect x="90" y="260" width="254" height="4" rx="2" fill="#21262d"/>
+  <rect x="90" y="260" width="190" height="4" rx="2" fill="#d2a8ff"/>
+  <text x="354" y="270" font-family="monospace" font-size="10" fill="#d2a8ff" text-anchor="end">75%</text>
+
+  <!-- JavaScript -->
+  <text x="20" y="288" font-family="monospace" font-size="10" fill="#8b949e">JavaScript</text>
+  <rect x="90" y="278" width="254" height="4" rx="2" fill="#21262d"/>
+  <rect x="90" y="278" width="198" height="4" rx="2" fill="#e3b341"/>
+  <text x="354" y="288" font-family="monospace" font-size="10" fill="#e3b341" text-anchor="end">78%</text>
+
+  <!-- Divider -->
+  <rect x="20" y="302" width="344" height="0.5" fill="#30363d"/>
+
+  <!-- Stats cards - 3D effect with shadow -->
+  <!-- Card 1 shadow -->
+  <rect x="24" y="320" width="106" height="64" rx="8" fill="#000000" opacity="0.35"/>
+  <rect x="20" y="316" width="106" height="64" rx="8" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="73" y="347" text-anchor="middle" font-family="monospace" font-size="18" font-weight="500" fill="#30a46c">12+</text>
+  <text x="73" y="366" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">Projects</text>
+
+  <!-- Card 2 shadow -->
+  <rect x="143" y="320" width="106" height="64" rx="8" fill="#000000" opacity="0.35"/>
+  <rect x="139" y="316" width="106" height="64" rx="8" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="192" y="347" text-anchor="middle" font-family="monospace" font-size="18" font-weight="500" fill="#58a6ff">OSS</text>
+  <text x="192" y="366" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">Contributor</text>
+
+  <!-- Card 3 shadow -->
+  <rect x="262" y="320" width="106" height="64" rx="8" fill="#000000" opacity="0.35"/>
+  <rect x="258" y="316" width="106" height="64" rx="8" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="311" y="347" text-anchor="middle" font-family="monospace" font-size="18" font-weight="500" fill="#d2a8ff">24/7</text>
+  <text x="311" y="366" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">Learning</text>
+</svg>
