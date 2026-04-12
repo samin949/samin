@@ -77,6 +77,4 @@ Django REST Framework, Chart.js
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=samin949&theme=radical" width="60%" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=samin949&show_icons=true&theme=radical" width="60%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samin949&layout=compact&theme=radical" width="45%" />
